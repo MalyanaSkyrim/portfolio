@@ -46,10 +46,11 @@ const Navbar = () => {
             className="w-[28px] h-[28px] object-contain cursor-pointer"
             onClick={() => setToggle(!toggle)}
           />
+          {/*To edit*/}
           <div
             className={`${
               toggle ? "flex" : "hidden"
-            } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
+            } p-6 absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
             <ul className="list-none flex gap-2 justify-end items-start flex-col">
               {navLinks.map((link) => (
