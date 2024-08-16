@@ -17,19 +17,21 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <section className="py-12 xl:py-24 h-[84vh] xl:pt-28 bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none">
-      <div className="container mx-auto">
-        <div className="flex justify-between gap-x-8">
+    <section className="py-12 lg:py-24 h-[84vh] lg:pt-28 bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none flex items-center">
+      <div className="mx-auto container lg:px-12 2xl:px-0">
+        <div className="flex flex-col justify-between gap-x-8 lg:flex-row">
           <div className="flex max-w-[600px] flex-col justify-center mx-auto lg:mx-0 text-center lg:text-left">
-            <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">
+            <div className="text-base uppercase font-semibold mb-4 text-primary tracking-[4px]">
               Front-end Developer
             </div>
-            <h1>Hello, my name is Mohamed Malyana</h1>
+            <h1 className="max-w-[400px] sm:max-w-none mx-auto">
+              Hello, my name is Mohamed Malyana
+            </h1>
             <p className="subtitle max-w-[490px] mx-auto lg:mx-0 mt-3">
               Brief description with insights about my skills and what I do. and
               what i engage in professionally.
             </p>
-            <div className="flex flex-col gap-y-3 sm:flex-row gap-x-3 mx-auto lg:mx-0 mb-8">
+            <div className="flex gap-y-3 gap-x-3 mx-auto lg:mx-0 mb-8">
               <Link href="/contact">
                 <Button className="gap-x-2">
                   Contact me <Send size={18} />
@@ -63,7 +65,7 @@ const Hero = () => {
               icon={<RiTeamFill />}
               endCountNum={3}
             />
-            <div className="bg-hero-shape2-light dark:bg-hero-shape2-dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2"></div>
+            <div className="bg-hero-shape2-light dark:bg-hero-shape2-dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2 scale-75 lg:scale-100"></div>
             <DevImg />
           </div>
         </div>
