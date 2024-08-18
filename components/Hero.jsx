@@ -17,7 +17,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <section className="py-12 lg:py-24 h-[84vh] lg:pt-28 bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none flex items-center">
+    <section className="py-12 lg:py-24 h-[85vh] lg:pt-28 bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none flex items-center">
       <div className="mx-auto container lg:px-12 2xl:px-0">
         <div className="flex flex-col justify-between gap-x-8 lg:flex-row">
           <div className="flex max-w-[600px] flex-col justify-center mx-auto lg:mx-0 text-center lg:text-left">
@@ -28,8 +28,9 @@ const Hero = () => {
               Hello, my name is Mohamed Malyana
             </h1>
             <p className="subtitle max-w-[490px] mx-auto lg:mx-0 mt-3">
-              Brief description with insights about my skills and what I do. and
-              what i engage in professionally.
+              Specializing in creating engaging web apps, transforming ideas
+              into intuitive, visually compelling experiences. Let's collaborate
+              to bring your digital vision to life.
             </p>
             <div className="flex gap-y-3 gap-x-3 mx-auto lg:mx-0 mb-8">
               <Link href="/contact">
@@ -65,8 +66,8 @@ const Hero = () => {
               icon={<RiTeamFill />}
               endCountNum={3}
             />
-            <div className="bg-hero-shape2-light dark:bg-hero-shape2-dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2 scale-75 lg:scale-100"></div>
-            <DevImg />
+            <div className="bg-hero-shape2-light dark:bg-hero-shape2-dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2 scale-75 xl:scale-100"></div>
+            <DevImg containerClassName="relative bg-hero-shape w-[510px] h-[462px] bg-no-repeat bg-bottom scale-75 xl:scale-100" />
           </div>
         </div>
         <div className="hidden lg:flex absolute left-2/4 bottom-5 animate-bounce">
