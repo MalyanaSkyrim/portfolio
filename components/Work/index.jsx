@@ -48,7 +48,7 @@ const projectData = [
 
 const Work = () => {
   return (
-    <section className="relative mb-16 xl:mb-24">
+    <section className="relative mb-20 xl:mb-24">
       <div className="container mx-auto">
         <div className="max-w-[400px] mx-auto text-center flex flex-col justify-center items-center mb-10">
           <h2 className="section-title mb-4">Latest projects</h2>

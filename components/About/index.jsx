@@ -10,7 +10,7 @@ import Skills from "./Skills";
 
 const About = () => {
   return (
-    <section className="mt-16 pb-20 min-h-[85vh] lg:h-[860px]">
+    <section className="mt-16 pb-20 min-h-[85vh] lg:min-h-[700px]">
       <div className="container mx-auto">
         <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">
           About me
@@ -20,7 +20,7 @@ const About = () => {
             <DevImg containerClassName="bg-about-shape-light dark:bg-about-shape-dark w-[80vw] h-[80vw] max-w-[400px] max-h-[400px]  mx-auto bg-no-repeat bg-contain relative" />
           </div>
           <div className="flex-1">
-            <Tabs defaultValue="skills">
+            <Tabs defaultValue="personal">
               <TabsList className="w-full md:gap-x-2 grid md:grid-cols-3 md:w-[520px] mx-auto md:border-border md:border">
                 <TabsTrigger value="personal">Personal Info</TabsTrigger>
                 <TabsTrigger value="qualifications">Qualifications</TabsTrigger>
