@@ -8,9 +8,9 @@ const Footer = () => {
         <div className="flex flex-col items-center justify-between">
           <Socials
             containerClassName="flex gap-x-6 mx-auto xl:mx-0 mb-4"
-            iconClassName="text-primary text-[20px]"
+            iconClassName="text-white hover:text-primary text-[20px]"
           />
-          <div className="text-muted-foreground">
+          <div className="text-muted-foreground text-center">
             Copyright &copy; MALYANA Mohamed. All rights reserved.
           </div>
         </div>

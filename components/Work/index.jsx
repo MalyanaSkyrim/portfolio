@@ -11,7 +11,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import Link from "next/link";
 
-const projectData = [
+export const projectData = [
   {
     image: "/work/4.png",
     category: "React js",
