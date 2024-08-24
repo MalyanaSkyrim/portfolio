@@ -11,9 +11,7 @@ const categories = [
 
 const ProjectsPage = () => {
   const [category, setCategory] = React.useState("All projects");
-  const filteredProjects = projectData.filter(
-    (p) => category === "All projects" || p.category === category
-  );
+
   return (
     <section className="min-h-screen pt-12">
       <div className="container mx-auto">

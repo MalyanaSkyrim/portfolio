@@ -1,12 +1,9 @@
-"use client";
 import Link from "next/link";
 import React from "react";
 import {
-  RiYoutubeFill,
   RiLinkedinFill,
   RiGithubFill,
   RiFacebookFill,
-  RiInstallFill,
   RiInstagramFill,
 } from "react-icons/ri";
 

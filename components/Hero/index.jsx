@@ -1,8 +1,7 @@
-"use client";
 import React from "react";
-import { Button } from "./ui/button";
-import { Download, Send } from "lucide-react";
+
 import CountBadge from "./CountBadge";
+import HeroActions from "./HeroActions";
 
 import {
   RiBriefcase4Fill,
@@ -11,9 +10,8 @@ import {
   RiArrowDownSLine,
 } from "react-icons/ri";
 
-import DevImg from "./DevImg";
-import Socials from "./Socials";
-import Link from "next/link";
+import DevImg from "../DevImg";
+import Socials from "../Socials";
 
 const Hero = () => {
   return (
@@ -32,16 +30,7 @@ const Hero = () => {
               into intuitive, visually compelling experiences. Let's collaborate
               to bring your digital vision to life.
             </p>
-            <div className="flex gap-y-3 gap-x-3 mx-auto lg:mx-0 mb-8">
-              <Link href="/contact">
-                <Button className="gap-x-2">
-                  Contact me <Send size={18} />
-                </Button>
-              </Link>
-              <Button variant="secondary" className="gap-x-2">
-                Download <Download size={18} />
-              </Button>
-            </div>
+            <HeroActions />
             <Socials
               containerClassName="flex gap-x-6 mx-auto lg:mx-0"
               iconClassName="text-foreground text-[22px] hover:text-primary transition-all"
